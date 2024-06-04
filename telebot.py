@@ -44,7 +44,7 @@ async def stop(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 def main() -> None:
     """Start the bot."""
     # Replace 'YOUR TOKEN HERE' with your actual bot token
-    application = Application.builder().token("7436581359:AAG_u1E0w5UPMBq9wS3sn7Wn_O0ic4YArJ8").build()
+    application = Application.builder().token("enter the api of your telegram bot").build()
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("next", next_question))
